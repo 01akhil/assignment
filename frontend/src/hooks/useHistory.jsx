@@ -1,7 +1,7 @@
 // useHistory.js
 import { useState, useEffect, useCallback } from 'react';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://assignment-backend-aykw.onrender.com';
 
 export const useHistory = () => {
   const [history, setHistory] = useState([]);
